@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		651CE4E41F9B127500BFEF89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CE4E31F9B127500BFEF89 /* Constants.swift */; };
+		657F303C1F9F7D140056F88F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F303B1F9F7D140056F88F /* PhotoCell.swift */; };
 		65B238401F990B490000C1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2383F1F990B490000C1E4 /* AppDelegate.swift */; };
 		65B238421F990B4A0000C1E4 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B238411F990B4A0000C1E4 /* MapVC.swift */; };
 		65B238451F990B4A0000C1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B238431F990B4A0000C1E4 /* Main.storyboard */; };
 		65B238471F990B4A0000C1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B238461F990B4A0000C1E4 /* Assets.xcassets */; };
 		65B2384A1F990B4A0000C1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B238481F990B4A0000C1E4 /* LaunchScreen.storyboard */; };
+		65B469011FA21B2C0066B3F9 /* MapVCLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B469001FA21B2C0066B3F9 /* MapVCLocation.swift */; };
+		65B469031FA21B430066B3F9 /* MapVCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B469021FA21B430066B3F9 /* MapVCMap.swift */; };
+		65B469051FA21B590066B3F9 /* MapVCCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B469041FA21B590066B3F9 /* MapVCCollection.swift */; };
 		65F1738A1F9CD8E800380D4B /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F173891F9CD8E800380D4B /* DroppablePin.swift */; };
+		65F3AB591FA38F8C007529F6 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3AB581FA38F8C007529F6 /* PopVC.swift */; };
 		9141B4117301F4BB74717077 /* Pods_Pixel_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDE80CFC0B550DE11AA51FD /* Pods_Pixel_City.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62A6BB87CE71397A354C6767 /* Pods-Pixel-City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.debug.xcconfig"; sourceTree = "<group>"; };
 		651CE4E31F9B127500BFEF89 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		657F303B1F9F7D140056F88F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		65B2383C1F990B490000C1E4 /* Pixel-City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel-City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B2383F1F990B490000C1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B238411F990B4A0000C1E4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -27,7 +33,11 @@
 		65B238461F990B4A0000C1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B238491F990B4A0000C1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B2384B1F990B4A0000C1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B469001FA21B2C0066B3F9 /* MapVCLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVCLocation.swift; sourceTree = "<group>"; };
+		65B469021FA21B430066B3F9 /* MapVCMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVCMap.swift; sourceTree = "<group>"; };
+		65B469041FA21B590066B3F9 /* MapVCCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVCCollection.swift; sourceTree = "<group>"; };
 		65F173891F9CD8E800380D4B /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		65F3AB581FA38F8C007529F6 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		91E1252B63E52BD0093F6153 /* Pods-Pixel-City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixel-City.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixel-City/Pods-Pixel-City.release.xcconfig"; sourceTree = "<group>"; };
 		BBDE80CFC0B550DE11AA51FD /* Pods_Pixel_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixel_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				65B238411F990B4A0000C1E4 /* MapVC.swift */,
+				65F3AB581FA38F8C007529F6 /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -99,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				65F173891F9CD8E800380D4B /* DroppablePin.swift */,
+				657F303B1F9F7D140056F88F /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +118,9 @@
 		65B238531F990BEB0000C1E4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				65B469001FA21B2C0066B3F9 /* MapVCLocation.swift */,
+				65B469021FA21B430066B3F9 /* MapVCMap.swift */,
+				65B469041FA21B590066B3F9 /* MapVCCollection.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B469011FA21B2C0066B3F9 /* MapVCLocation.swift in Sources */,
 				65B238421F990B4A0000C1E4 /* MapVC.swift in Sources */,
+				65B469031FA21B430066B3F9 /* MapVCMap.swift in Sources */,
+				65B469051FA21B590066B3F9 /* MapVCCollection.swift in Sources */,
+				657F303C1F9F7D140056F88F /* PhotoCell.swift in Sources */,
 				65F1738A1F9CD8E800380D4B /* DroppablePin.swift in Sources */,
+				65F3AB591FA38F8C007529F6 /* PopVC.swift in Sources */,
 				65B238401F990B490000C1E4 /* AppDelegate.swift in Sources */,
 				651CE4E41F9B127500BFEF89 /* Constants.swift in Sources */,
 			);
